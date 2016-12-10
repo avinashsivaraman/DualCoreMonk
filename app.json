@@ -1,8 +1,7 @@
 {
   "name": "Wit-Facebook-bot",
   "description": "Wit-Facebook Messenger Bot Demo.",
-  "repository": "https://github.com/hunkim/Wit-Facebook",
-  "logo": "https://avatars2.githubusercontent.com/u/4723433",
+  "repository": "https://github.com/avinash/Wit-Facebook",
   "keywords": ["node", "express", "github", "wit", "bot", "fcaebook"],
   "env": {
     "WIT_TOKEN": {

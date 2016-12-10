@@ -1,7 +1,7 @@
 {
-  "name": "Wit-Facebook-bot",
-  "description": "Wit-Facebook Messenger Bot Demo.",
-  "repository": "https://github.com/avinash/Wit-Facebook",
+  "name": "DualCoreMonk",
+  "description": "Bot That makes the learning easier",
+  "repository": "https://github.com/avinashsivaraman/DualCoreMonk",
   "keywords": ["node", "express", "github", "wit", "bot", "fcaebook"],
   "env": {
     "WIT_TOKEN": {

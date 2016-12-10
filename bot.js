@@ -49,10 +49,20 @@ const actions = {
         cb();
       });
     } else {
-      console.log('Oops! Couldn\'t find user in context:', context);
+      console.log('Oops! Couldn\'at find user in context:', context);
       // Giving the wheel back to our bot
       cb();
     }
+  },
+  getResources(sessionId,{context, entities},cb) {
+    return new Promise(function(resolve, reject) {
+       var location = firstEntityValue(entities, "Programming")
+    if (location) {
+      context.Resources = location; // we should call a weather API here
+      } 
+    cb(context);
+
+    });
   },
   merge(sessionId, context, entities, message, cb) {
     // Retrieve the location entity and store it into a context field
@@ -76,10 +86,27 @@ const actions = {
     cb(context);
   },
   ['getTrendingTopic'](sessionId, context, cb){
-    
-    context.Topics = 'Ruby , Java';
+     var messageData = {
+        message: {
+        attachment: {
+        type: "template",
+        payload: {
+          template_type: "button",
+          text: "NodeJS",
+          buttons:[{
+            type: "web_url",
+            url: "https://nodejs.org/en/",
+            title: "NodeJS"
+          }]
+        }
+      }
+    }
+  }  
+
+
+    context.Topics = messageData;
     cb(context);
-  }
+  },
 
 };
 

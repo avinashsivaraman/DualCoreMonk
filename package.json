@@ -1,7 +1,7 @@
 {
-  "name": "Wit-Facebook",
+  "name": "DualCoreMonk",
   "version": "1.0.0",
-  "description": "Simple Wit-Facebook",
+  "description": "Bot that makes learning easier",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -28,10 +28,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hunkim/Wit-Facebook.git"
+    "url": "https://github.com/avinashsivaraman/DualCoreMonk"
   },
   "bugs": {
-    "url": "https://github.com/hunkim/Wit-Facebook/issues"
+    "url": "https://github.com/avinashsivaraman/DualCoreMonk/issues"
   },
-  "homepage": "https://github.com/hunkim/Wit-Facebook#readme"
+  "homepage": "https://github.com/avinashsivaraman/DualCoreMonk#readme"
 }

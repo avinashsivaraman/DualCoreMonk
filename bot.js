@@ -75,6 +75,12 @@ const actions = {
     context.forecast = 'sunny';
     cb(context);
   },
+  ['getTrendingTopic'](sessionId, context, cb){
+    
+    context.Topics = 'Ruby , Java';
+    cb(context);
+  }
+
 };
 
 

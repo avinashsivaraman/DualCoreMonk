@@ -87,7 +87,6 @@ const actions = {
   },
   ['getTrendingTopic'](sessionId, context, cb){
      var messageData = {
-        message: {
         attachment: {
         type: "template",
         payload: {
@@ -100,7 +99,6 @@ const actions = {
           }]
         }
       }
-    }
   }  
 
 

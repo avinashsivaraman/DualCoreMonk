@@ -90,7 +90,7 @@ const actions = {
         attachment: {
         type: "template",
         payload: {
-          template_type: "button",
+          template_type: "buttons",
           text: "NodeJS",
           buttons:[{
             type: "web_url",
